@@ -3,6 +3,6 @@ class Usuario {
   int edad;
   List<String> profesiones;
 
-  Usuario(
-      {required this.nombre, required this.edad, required this.profesiones});
+  Usuario({required this.nombre, required this.edad, required this.profesiones})
+      : assert(nombre != null);
 }

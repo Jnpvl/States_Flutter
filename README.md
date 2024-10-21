@@ -5,6 +5,7 @@ Manejador de estados:
 - Singleton
 - Provider
 - Cubit
+- Bloc
 
 
 
